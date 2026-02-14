@@ -9,11 +9,11 @@ Sou **Engenheiro Civil** em transição de carreira. Com uma base sólida em ló
 
 ## 📅 Roadmap de Progresso
 
-### 🎨 Módulo 01: Front-End (O Início)
+### 🎨 Módulo 01: Front-End (Início)
 - [x] **Parte 1:** Introdução ao desenvolvimento Front-end.
 - [x] **Parte 2:** Versionamento de código usando o Git (Branches, Merges e Conventional Commits).
-- [ ] **Parte 3:** HTML - Estrutura Semântica e Acessibilidade. 🏗️ *(Estudando hoje)*
-- [ ] **Parte 4:** CSS - Estilização e Design Responsivo.
+- [x] **Parte 3:** HTML - Estrutura Semântica e Acessibilidade. 
+- [ ] **Parte 4:** CSS - Estilização e Design Responsivo. 🏗️ *(Estudando hoje)*
 - [ ] **Parte 5:** JavaScript - Lógica e Manipulação do DOM.
 
 ### ☕ Módulo 02: Backend Java (Fundação)
