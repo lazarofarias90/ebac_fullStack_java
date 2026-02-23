@@ -5,7 +5,26 @@
     box-sizing: border-box;
 }
 
+header, section h2 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
 /* ESTILO 2 */
+header h1, section h2 {
+    font-weight: normal;
+}
+
 header {
     padding: 16px 0;
     background-color: #182c61;
@@ -31,7 +50,7 @@ header nav li a {
 }
 
 /* ESTILO 4 */
-.container {
+header .container, section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,4 +87,53 @@ section p {
 /* ESTILO 8 */
 .store-front {
     margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182C61;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
 }
